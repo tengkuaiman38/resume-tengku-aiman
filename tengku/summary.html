@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Welcome to Tengku Aiman Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body> <body background="images/bg3.jpg">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Tengku Aiman<br>Webpage</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="summary.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Summary</a> 
+    <a href="objective.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Objective</a> 
+    <a href="edu.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Education</a> 
+    <a href="skills.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skills</a> 
+    <a href="exp.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experiences</a> 
+    <a href="achieve.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Achievements</a> 
+    <a href="ref.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">References</a> 
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <a href="FAMILY.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">ALBUM</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>MENU</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+   <title>::Welcome to TENGKU AIMAN HAFIZI BIN TENGKU MAZLAN WEBSITE::</title>
+</head>
+<h1 class="w3-jumbo"><font face="elephant"color="Black"size="5"><h3><marquee behavior="left"><p align="center">:: Welcome to TENGKU AIMAN HAFIZI Website:: </p></h1></font></marquee>  
+<audio controls="autoplay">
+       <source src ="music/intro.mp3" type ="audio/mpeg">
+    </audio>
+<style>
+body {
+  background-image: url('images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+</style>
+
+<p align="center">
+<font face="elephant"color="purple"size="6"><h7><p align="center">PERSONAL BACKGROUND</p></h7></font> 
+
+<p align="center">
+ <img src="images/IMG3.png" width="220"height="170"border="2">
+<font face= "Arial Black"size="2">
+<br>NAME : TENGKU AIMAN HAFIZI BIN TENGKU MAZLAN
+<br>HOME ADDRESS :3835 KAMPUNG PULAU KETAM 20100 KUALA TERENGGANU,
+TERENGGANU
+<br>EMAIL:tengkuaiman665@gmail.com
+<br>PHONE NUMBER:0128138307
+<font face="elephant"color="purple"size="5"><h8><p align="center">PERSONAL SUMMARY</p></h8></font> 
+<font face= "Arial Black"size="2"> 
+A hardworking and ready to learn student persuing marketing course in UNIVERSITI TEKNOLOGI MARA(HONS) MARKETING
+</font></p>
+
+  
+  
+   I am a responsible, self-assured, and self-motivated individual. Accounting, finance, auditing, and company secretary are all subjects that pique my interest. I'll also be able to pick up new skills and expertise in a short amount of time.
+I appreciate reading books that contain information about natural history and economics. Reading allows me to expand my general knowledge while also giving me the opportunity to spend some time alone. In addition, I am enthusiastic in expressing fresh ideas and developing relationships with others. I am an excellent team player in any business and can readily adapt to varied situations such as working under pressure.
+
+    </p>
+  </div>
+  
+  
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Copyright by Tengku Aiman © 2021</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
